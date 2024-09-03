@@ -1,0 +1,32 @@
+Este projeto consiste na implementação de um sistema de banco de dados para gerenciar produtos, clientes e vendas em uma loja. O objetivo é criar um sistema relacional que permita a administração eficiente das informações relacionadas a produtos, clientes e transações de vendas.
+
+Estrutura do Projeto
+O sistema é composto por três tabelas principais: Clientes, Produtos e Vendas. Cada tabela possui suas respectivas colunas e chaves, garantindo a integridade e a relação entre os dados.
+
+Tabelas
+Clientes: Armazena informações dos clientes, incluindo um identificador único (id_cliente), nome, email e telefone.
+Produtos: Armazena informações dos produtos, como identificador único (id_produto), nome, preço e quantidade em estoque.
+Vendas: Registra as vendas realizadas, incluindo um identificador único para cada venda (id_venda), o identificador do cliente (id_cliente), o identificador do produto (id_produto), a quantidade vendida e a data da venda.
+Comandos Utilizados
+CREATE DATABASE: Criação do banco de dados.
+CREATE TABLE: Criação das tabelas para armazenar as informações.
+INSERT INTO: Inserção de dados nas tabelas.
+SELECT ... JOIN: Consultas para visualizar e relacionar dados de múltiplas tabelas.
+UPDATE: Atualização de dados em tabelas específicas.
+DELETE: Remoção de dados das tabelas.
+Instruções para Execução
+Clone o Repositório:
+git clone https://github.com/usuario/sistema_vendas.git
+cd sistema_vendas
+Executar o Script SQL:
+
+Use um cliente SQL como MySQL Workbench, DBeaver, ou linha de comando do MySQL.
+Importe o arquivo sistema_vendas.sql ou copie e cole o conteúdo do arquivo no cliente SQL para executar o script.
+Realizar Consultas e Operações de Teste:
+
+Teste as operações de inserção, consulta, atualização e deleção usando as consultas fornecidas no script SQL.
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
