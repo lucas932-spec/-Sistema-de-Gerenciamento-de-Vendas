@@ -1,0 +1,29 @@
+# Ignorar arquivos e diretórios de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de banco de dados local
+*.sql~
+*.db
+*.sqlite
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos temporários de SO
+*.swp
+*.bak
+*.tmp
+
+# Ignorar arquivos de backup
+*~
+*.bak
+*.orig
+*.old
+
+# Ignorar arquivos de cache
+.cache/
